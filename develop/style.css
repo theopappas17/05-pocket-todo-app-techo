@@ -13,10 +13,6 @@ textarea {
   padding: 10px;
 }
 
-ul > li {
-  list-style: none;
-}
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
