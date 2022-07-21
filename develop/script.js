@@ -25,30 +25,30 @@ timeNow.innerHTML = now.format("HHMM");
 function determineTimeBefore() {
   console.log(parseInt((now.format("HHMM"))));
   console.log(typeof(parseInt((now.format("HHMM")))));
-  if (parseInt(now.format("HHMM")) < 800) {
-    h800.style.backgroundColor = 'gray';
-} else if (parseInt(now.format("HHMM")) < 900) {
-  h900.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1000) {
-  h1000.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1200) {
-  h1200.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1300) { 
-    h1300.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1400) {
-    h1400.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1500) {
-    h1500.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1600) {
-    h1600.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1700) {
-    h1700.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1800) {
-  h1800.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 1900) {
-  h1900.display.style.past;
-} else if (parseInt(now.format("HHMM")) < 2000) {
-  h2000.display.style.past;
+  if (parseInt(now.format("HHMM")) > 800) {
+    h800.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 900) {
+  h900.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1000) {
+  h1000.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1200) {
+  h1200.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1300) { 
+    h1300.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1400) {
+    h1400.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1500) {
+    h1500.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1600) {
+    h1600.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1700) {
+    h1700.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1800) {
+  h1800.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 1900) {
+  h1900.style.backgroundColor = 'red';
+} else if (parseInt(now.format("HHMM")) > 2000) {
+  h2000.style.backgroundColor = 'red';
 };
 }
 
